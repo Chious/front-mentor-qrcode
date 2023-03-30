@@ -1,0 +1,69 @@
+/* card */
+.card {
+  position: relative;
+  width: 672px;
+  height: 931px;
+
+  background: white;
+  border-radius: 25px;
+}
+
+/* background */
+/*.background {
+  position: absolute;
+  width: 672px;
+  height: 931px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  border-radius: 25px;
+}*/
+
+/* card-text */
+.card-text {
+  position: absolute;
+  width: 518px;
+  height: 108px;
+  left: 77px;
+  top: 644px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* card-description */
+.card-description {
+  position: absolute;
+  width: 518px;
+  height: 108px;
+  left: 77px;
+  top: 762px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: hsl(218, 44%, 22%);
+}
+
+/* qrcode */
+.qrcode {
+  position: absolute;
+  width: 576px;
+  height: 576px;
+  left: 48px;
+  top: 42px;
+
+  background: url(image-qr-code.png);
+  border-radius: 25px;
+}
